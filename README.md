@@ -1,20 +1,36 @@
 **Table of Contents**
-- [01. Brief of PHP Webshell](#01-brief-of-php-webshell)
+- [01. PHP webshell 概述](#01-php-webshell-概述)
 
 ---
 
-### 01. Brief of PHP Webshell
+### 01. PHP webshell 概述
 
-[php/01.php](php/01.php) -- Single Line Webshell
+**一句话 webshell**
 
-```PlainText
-PASSWORD: krm
-MIME Type: text/php
-    OPTIONS:
-        image/jpeg
-        image/png
-Request Method: $_REQUEST
-    OPTIONS:
-        $_GET
-        $_POST
-```
+- [php/01.php](php/01.php) -- Single Line Webshell
+
+    ```Plaintext
+    Description:
+        PASSWORD: krm
+        MIME Type: text/php
+        Request Method: $_REQUEST
+
+    Args:
+        MIME Type:
+            image/jpeg
+            image/png
+            text/plain
+        Request Method:
+            $_GET
+            $_POST
+    ```
+
+**配置文件覆盖**
+
+- [php/.htaccess](php/.htaccess)
+
+    ```Plaintext
+    Description:
+        Parse ".l33t" suffix file as PHP file
+        MIME type: text/plain
+    ```
